@@ -1,0 +1,113 @@
+/* Default box sizing & margin, padding for all element*/
+*, ::after, ::before {
+  box-sizing:inherit;
+  margin:0;
+  padding:0;
+}
+html {
+  box-sizing: border-box;
+}
+
+/* Body background*/
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+/*Profile container style*/
+.profile-container {
+  max-width:800px;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap:20px;
+  justify-items:center;
+  align-items:center;
+  text-align:center;
+  margin:auto;
+  margin-top:100px;
+}
+/*Profile Style*/
+.profile-container .profile {
+  width:170px;
+  height:200px;
+  position:relative;
+  text-align:center;
+}
+.profile-container .profile img {
+  border-radius: 50%;
+  opacity: 0.7;
+  transition:0.6s ease;
+}
+
+/* Text visible invisible animation for all element*/
+.sojib-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.sojib:hover .sojib-content{
+  opacity:1;
+}
+
+.shakib-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.shakib:hover .shakib-content{
+  opacity:1;
+}
+
+.raktim-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.raktim:hover .raktim-content{
+  opacity:1;
+}
+
+.moon-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.moon:hover .moon-content{
+  opacity:1;
+}
+
+.joshim-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.joshim:hover .joshim-content{
+  opacity:1;
+}
+
+.jakir-content {
+  opacity: 0;
+  transition: 1s ease;
+  
+}
+.jakir:hover .jakir-content{
+  opacity:1;
+}
+
+.btnsection {
+  
+  text-align: center;
+  margin:auto
+ 
+}
+/* Button Style*/
+.btn {
+  padding:15px 30px;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size:20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #27ae60
+}
